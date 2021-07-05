@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {quotes,backgrounds} from './data';
+import {quotes, backgrounds} from './data';
 import '../styles/App.css' ;
 
 
@@ -8,6 +8,7 @@ class App extends Component {
 
     timeTimer;
     tempTimer;
+
 
     quote = quotes[Math.floor(Math.random()*quotes.length)]
     background = backgrounds[Math.floor(Math.random()*backgrounds.length)];
