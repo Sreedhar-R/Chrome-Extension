@@ -64,8 +64,8 @@ class App extends Component {
         this.fetchTime();
         this.timeTimer = setInterval(this.fetchTime,60000); 
 
-        // this.fetchTemp();
-        // this.tempTimer = setInterval(this.fetchTemp,3600000)
+        this.fetchTemp();
+        this.tempTimer = setInterval(this.fetchTemp,3600000)
     }
 
     componentWillUnmount = () => {
@@ -146,7 +146,7 @@ class App extends Component {
 
                     <div className="center">
                         <div className="center--time">{this.state.time}</div>
-                        <div className='center--personal_line'>You Matter,{this.state.name}</div>
+                        <div className='center--personal_line'>You matter,{this.state.name}</div>
                         {this.state.todo.title == null ?
                         (
                             <>
