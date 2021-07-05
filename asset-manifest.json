@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Chrome-Extension/static/css/main.785176cc.chunk.css",
-    "main.js": "/Chrome-Extension/static/js/main.d7621404.chunk.js",
-    "main.js.map": "/Chrome-Extension/static/js/main.d7621404.chunk.js.map",
+    "main.js": "/Chrome-Extension/static/js/main.d11f0c0f.chunk.js",
+    "main.js.map": "/Chrome-Extension/static/js/main.d11f0c0f.chunk.js.map",
     "runtime-main.js": "/Chrome-Extension/static/js/runtime-main.86c2ad08.js",
     "runtime-main.js.map": "/Chrome-Extension/static/js/runtime-main.86c2ad08.js.map",
     "static/js/2.ff8beadc.chunk.js": "/Chrome-Extension/static/js/2.ff8beadc.chunk.js",
@@ -11,12 +11,17 @@
     "static/js/3.df84f854.chunk.js.map": "/Chrome-Extension/static/js/3.df84f854.chunk.js.map",
     "index.html": "/Chrome-Extension/index.html",
     "static/css/main.785176cc.chunk.css.map": "/Chrome-Extension/static/css/main.785176cc.chunk.css.map",
-    "static/js/2.ff8beadc.chunk.js.LICENSE.txt": "/Chrome-Extension/static/js/2.ff8beadc.chunk.js.LICENSE.txt"
+    "static/js/2.ff8beadc.chunk.js.LICENSE.txt": "/Chrome-Extension/static/js/2.ff8beadc.chunk.js.LICENSE.txt",
+    "static/media/landscape10.9fef7aad.jpg": "/Chrome-Extension/static/media/landscape10.9fef7aad.jpg",
+    "static/media/landscape6.46452b40.jpg": "/Chrome-Extension/static/media/landscape6.46452b40.jpg",
+    "static/media/landscape7.65c86a72.jpg": "/Chrome-Extension/static/media/landscape7.65c86a72.jpg",
+    "static/media/landscape8.f5b0860b.jpg": "/Chrome-Extension/static/media/landscape8.f5b0860b.jpg",
+    "static/media/landscape9.c51abebb.jpg": "/Chrome-Extension/static/media/landscape9.c51abebb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.86c2ad08.js",
     "static/js/2.ff8beadc.chunk.js",
     "static/css/main.785176cc.chunk.css",
-    "static/js/main.d7621404.chunk.js"
+    "static/js/main.d11f0c0f.chunk.js"
   ]
 }
