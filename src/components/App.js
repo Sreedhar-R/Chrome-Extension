@@ -9,6 +9,7 @@ class App extends Component {
     timeTimer;
     tempTimer;
 
+    //tempTimer;
 
     quote = quotes[Math.floor(Math.random()*quotes.length)]
     background = backgrounds[Math.floor(Math.random()*backgrounds.length)];
