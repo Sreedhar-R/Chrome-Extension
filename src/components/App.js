@@ -42,13 +42,13 @@ class App extends Component {
 
         const cityJsonResp = await fetch(`https://api.ipinfodb.com/v3/ip-city/?key=f767493ed02b334854451e59119c0d4b52d13962686701b96df91a315a86d236&ip=${ipObj.ip}&format=json`);
         const cityObj = await cityJsonResp.json();
-        this.setState({city : cityObj.cityName});
+        await this.setState({city : cityObj.cityName});
         console.log(cityObj.cityName);
 
         const tempJsonResp = await fetch(`http://api.weatherstack.com/current?access_key=85eced8e03eb0542a49b547653636cd1&query=${cityObj.cityName}`);
         const tempObj = await tempJsonResp.json();
         let temp = tempObj.current.temperature;
-        this.setState({temp});
+        this.setState({ temp });
     }
 
     componentDidMount = async() => {
@@ -96,7 +96,7 @@ class App extends Component {
 
     searchQuery = (e) => {
         e.preventDefault();
-        if(this.state.query != ''){
+        if(this.state.query !== ''){
             let url = `https://www.google.com/search?q=${this.state.query}`;
             window.open(url,'_self')
         }
@@ -138,7 +138,7 @@ class App extends Component {
                             </form>
                         </div>
                         <div className="temperature">
-                            <span>{this.state.temp}<sup>o</sup></span>
+                            <span>{this.state.temp?this.state.temp : 27}<sup>o</sup></span>
                             <div className="cityName">
                             {this.state.city}
                             </div>
@@ -173,13 +173,13 @@ class App extends Component {
 
                     <div className="footer">
                         <div>
-                            Sreedhar R, Creator
+                            @newtanian
                         </div>
                         <div className='footer--quote'>
                             {this.quote}
                         </div>
                         <div>
-                            @newtanian
+                        Creator : Sreedhar R
                         </div>
                     </div>
                 </div>
